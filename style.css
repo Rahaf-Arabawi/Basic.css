@@ -318,11 +318,15 @@ h3{
 /* tasks13 */
 .src{
     border: 1px solid black ;
-    width: 300px;
-  height: 300px;
-  margin:auto;
+    width: 200px;
+  height: 250px;
+  padding: 30px;
+  margin-top:200px;
   overflow: auto;
-
+  font-size: large;
+}
+.src2{
+    font-size: x-large;
 }
 /* tasks14 */
 .box{
@@ -437,16 +441,15 @@ left: 430px;
 }
 /* tasks18 */
 .img{
+    border-radius: 10px;
+    position: absolute; 
+    width: 250px;
+    height: 250px;
     
-    width: 200%;
-    height: 150%;
-}
-.img:first-child{
-    position: absolute;
-    top: 50px;
-    left: 50px;
-    z-index: 2;
-}
+    }
+    
+   
+    
 /* tasks19 */
 .images{
     border: 10px solid transparent;
