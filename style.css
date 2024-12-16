@@ -1,0 +1,465 @@
+/* tasks1 */
+.p1{
+    background-color: orange;
+    border: 1px;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    text-align: center;
+    padding: 30px;
+    opacity: 1;
+}
+.p2{
+    background-color: orange;
+    border: 1px;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    text-align: center;
+    padding: 30px; 
+    opacity: 0.75;
+}
+.p3{
+    background-color: orange;
+    border: 1px;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    text-align: center;
+    padding: 30px; 
+    opacity: 0.5;
+}
+.p4{
+    background-color: orange;
+    border: 1px;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    text-align: center;
+    padding: 30px;
+    opacity: 0.25; 
+}
+
+/* tasks2 */
+h3{
+    text-align: center;
+}
+.p{
+    border: 1px solid black ;
+    width: 200px;
+  height: 100px;
+  margin: auto;
+
+}
+.p.p5{
+   overflow: visible;
+}
+.p.p6{
+    overflow: hidden;
+}
+.p.p7{
+    overflow: scroll;
+}
+.p.p8{
+    overflow: auto;
+}
+/* tasks3 */
+.Black{
+    border: 5px solid black;
+    height: 40px;
+    width: 190px;
+    text-align: center;
+    margin: auto;
+}
+.Red{
+    border: 5px dashed red;
+    height: 40px;
+    width: 190px;
+    text-align: center;
+    margin: auto;
+}
+.Blue{
+    
+        border: 5px dotted blue;
+        height: 40px;
+        width: 190px;
+        text-align: center;
+        margin: auto;
+    }
+    .Purple{
+        border: 5px double purple;
+        height: 40px;
+        width: 190px;
+        text-align: center;
+        margin: auto;
+    }
+    .Fuchsia{
+        border: 5px groove fuchsia;
+        height: 40px;
+        width: 190px;
+        text-align: center;
+        margin: auto;
+    }
+    .Greenyellow{
+        border: 5px ridge greenyellow;
+        height: 40px;
+        width: 190px;
+        text-align: center;
+        margin: auto;
+    }
+    .Yellow{
+        border: 5px inset yellow;
+        height: 40px;
+        width: 190px;
+        text-align: center;
+        margin: auto;
+    }
+    .Brown{
+        border: 5px outset brown;
+        height: 40px;
+        width: 190px;
+        text-align: center;
+        margin: auto;
+    }
+    /* tasks4 */
+    .h3{
+        text-align: center;
+    }
+    .Outline1{
+        border: 2px solid blue;
+        height: 60px;
+        width: 190px;
+        text-align: center;
+        margin: auto;
+        padding: 10px;
+    }
+    .Outline2{
+        outline: 2px solid red;
+        height: 60px;
+        width: 190px;
+        text-align: center;
+        margin: auto;
+        padding: 10px;
+    }
+    .Outline3{
+        border: 2px solid blue;
+        outline: 2px dashed red; 
+        height: 60px;
+        width: 190px;
+        text-align: center;
+        margin: auto;
+        padding: 10px;
+    } 
+    .Outline4{
+        border: 2px solid green;
+        outline: 2px solid orange; 
+        outline-offset: 9px;
+        height: 60px;
+        width: 190px;
+        text-align: center;
+        margin: auto;
+        padding: 10px;
+    } 
+    /* tasks5 */
+    .Padding{
+        text-align: center;
+        background-color: #ffb3b3;
+        border: 3px solid #cc00cc;
+        padding: 15px;
+    }
+     /* tasks6 */
+     .Margin{
+        text-align: center;
+        background-color: #ffb3b3;
+        border: 3px solid #cc00cc;
+        margin: 5px;
+    } 
+    /* tasks7 */
+    .BoxShadow1{
+        box-shadow: 10px 10px 15px 0 wheat;
+        background-color: orange;
+        height: 100px;
+        width: 200px;
+        border-radius: 10px;
+    }
+    .BoxShadow2{
+        box-shadow: 5px 5px 10px 0 wheat inset;
+        background-color: orange;
+        height: 100px;
+        width: 200px;
+        border-radius: 10px;
+    }
+    .BoxShadow3{
+        /* box-shadow: 5px 5px 10px black, 5px -5px 10px red; */
+        box-shadow: -5px -5px 10px red, 5px 5px 10px black;
+        background-color: orange;
+        height: 100px;
+        width: 200px;
+        border-radius: 10px;
+    }
+    /* tasks8 */
+    .div1{
+        width: 1000px;
+        height: 100px;
+        border: 3px solid black;
+        position: relative;
+        left: 20px;
+        top: 20px;
+    }
+    .div2{
+        width: 400px;
+        height: 100px;
+        border: 3px;
+        background-color: #98e698;
+        position: fixed;
+        left: 190px; 
+        top: 50px;
+        z-index: 2;
+
+    }
+    .div3{
+        width: 800px;
+        height: 70px;
+        border: 3px;
+        background-color: blue;
+        position: fixed;
+        left: 40px; 
+        top: 150px;
+        z-index: 1;
+
+    }
+    /* tasks9 */
+    .position{
+        border: solid;
+        height: 200px;
+        width: 200px;
+        border-radius: 10px;
+        color: white;
+    }
+    .po1{
+        background-color: blue;
+        position: relative;
+    }
+    .po2{
+        background-color: red;
+        position: absolute;
+        top: 30px;
+        left: 30px;
+    }
+    .po3{
+        background-color: yellow;
+        position: absolute;
+        top: 30px;
+        left: 30px;
+    }
+    .po4{
+        background-color: green;
+        position: absolute;
+        top: 30px;
+        left: 30px;  
+    }
+    /* tasks10 */
+    .absolute{
+        border: 1px solid;
+        height: 160px;
+        width: 160px;
+        position: absolute; 
+    }
+    .a1{
+        background-color: #ff0066;
+        top: 0;
+        left: 0;
+        
+    }
+    .a2{
+        background-color: #008fb3;
+        top: 0; 
+        right: 0;
+        
+    }
+    .a3{
+        background-color: #ace600;
+        bottom: 0;
+        left: 0;
+       
+    }
+    .a4{
+        background-color: #cccc00;
+        bottom: 0;
+        right: 0;
+    }
+    /* taske11 */
+    .padding2{
+        border: 1px;
+        border-left: solid red;
+        border-bottom: dashed blue;
+        height: 200px;
+        width: 500px;
+        background-color:  #e6ffff;
+        margin:auto;
+        text-align: center;
+        padding:20px;
+    }
+    /* tasks12 */
+    .outer-box{
+        
+        border: 2px solid blue;
+        padding-bottom: 50px;
+        margin: 20px;
+        
+}
+.inner-box{
+    border: 1px  dashed red;
+    background-color: #ffe6e6;
+    margin: 10px;
+    padding-bottom: 10xp;
+      
+}
+/* tasks13 */
+.src{
+    border: 1px solid black ;
+    width: 300px;
+  height: 300px;
+  margin:auto;
+  overflow: auto;
+
+}
+/* tasks14 */
+.box{
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+    border: 1px solid red;
+    width: 250px;
+    height: 300px;
+    box-shadow: 5px -5px 0 0 white,
+    10px -10px 0 0 blue,
+    15px -15px 0 0 white,
+    20px -20px 0 0 green,
+    25px -25px  white,
+    30px -30px mediumslateblue;
+}
+/* tasks15 */
+.relative{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    border: solid 1px;
+    border-radius: 5px;
+    width: 75px;
+    height: 75px;
+    margin: auto;
+    position: absolute;
+}
+.rr1{
+    background-color: palevioletred;
+    top: 190px;
+    left: 310px;
+    z-index: 1; 
+}
+.rr2{
+    background-color: blue;
+top: 150px;
+left: 350px;
+}
+.rr3{
+    background-color: orange;
+top: 150px;
+left: 430px;
+}
+.rr4{
+    background-color: #00ff99;
+    top: 150px;
+    left: 510px;
+}
+.rr5{
+    background-color: #cc99ff;
+    top: 233px;
+    left: 266px; 
+}
+.rr6{
+    background-color: #ff80df;
+    top: 235px;
+    left: 350px;
+}
+.rr7{
+    background-color: palevioletred;
+    top: 235px;
+    left: 430px;
+}
+.rr8{
+    background-color: blue;
+    top: 235px;
+    left: 510px;
+}
+.rr9{
+    background-color: #00ff99;
+    top: 325px;
+    left: 270px;
+}
+.rr10{
+    background-color: orange;
+    top: 325px;
+    left: 350px;
+}
+.rr11{
+    background-color: #cc99ff;
+    top: 325px;
+    left: 430px; 
+}
+.rr12{
+    background-color: #ff80df;
+    top: 325px;
+    left: 510px;
+}
+/* tasks16*/
+.oo{
+    position: fixed;
+    width: 200px;
+    height: 200px;
+}
+.oo2{
+    position: absolute;
+    left: 250px;
+}
+
+/* tasks17 */
+.navbar{
+      border: 3px solid #333333;
+      padding: 20px;
+      background-color: #333333;
+      position: sticky;
+     
+}
+.ppp{
+    color: white;
+}
+/* tasks18 */
+.img{
+    
+    width: 200%;
+    height: 150%;
+}
+.img:first-child{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    z-index: 2;
+}
+/* tasks19 */
+.images{
+    border: 10px solid transparent;
+    border-image: url(img/img1.jpeg) 30 round;
+    top: 50%;
+    width: 30%;
+    height: 30%;
+    position: absolute;
+   left: 50%;
+   padding: 15px;
+   transform: translate(-50%, -50%);
+
+}
+
+
+
